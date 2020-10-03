@@ -221,5 +221,6 @@ def bus_sim():
     write_csv(bus_location_info, bus_queue, bus_qty)
 
 
-# run simulation
-bus_sim()
+if __name__ == '__main__':
+    # run simulation
+    bus_sim()
